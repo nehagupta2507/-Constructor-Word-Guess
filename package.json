@@ -1,0 +1,24 @@
+{
+  "name": "Constructor-Word-Guess",
+  "version": "1.0.0",
+  "description": "Command-line Word Guess Game using constructor functions.",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehagupta2507/Constructor-Word-Guess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehagupta2507/Constructor-Word-Guess/issues"
+  },
+  "homepage": "https://github.com/nehagupta2507/Constructor-Word-Guess#readme"
+}
