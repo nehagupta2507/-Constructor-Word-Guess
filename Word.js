@@ -1,5 +1,4 @@
 const Letter = require('./Letter.js');
-//splitting word into character
 let Word = function(word){
     this.letterArr = [];
     for(let i=0; i < word.length; i++){

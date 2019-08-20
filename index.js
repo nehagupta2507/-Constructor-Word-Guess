@@ -18,14 +18,10 @@ startGame = () => {
 
 function displayWord(guessedWord, correctWord){
     let letterArray = [];
-    let guessesArray = []; //store boolean values 
-
-    //Shows the word being guessed, initially as ?. The ? will be replaced by alphabets when they are guessed
+    let guessesArray = [];
     console.log("");
     console.log(guessedWord.createString());
     console.log("");
-
-    //Ask for the letter and only alphabets. We do not want to accept special characters, numbers, or empty spaces.
     inquirer.prompt([
         {
             name: 'letterGuessed',
@@ -71,7 +67,6 @@ function displayWord(guessedWord, correctWord){
                     default: true
                 }
             ]).then(function(answer){
-                //If yes, a new game starts.
                 if(answer.restartGame){
                     startGame();
                 }
