@@ -1,5 +1,8 @@
 # Constructor-Word-Guess
  Command-line Word Guess Game using constructor functions.
+ The game looks as follows:-
+ 
+ ![](constructor_word_game.gif)
 
 The game is able to receive user input using the inquirer or prompt npm packages.
 
